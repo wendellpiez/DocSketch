@@ -1,0 +1,40 @@
+.dhq-view {
+ position: fixed;
+ top:2%;  right:0px; padding-right: 5px;
+ width: 39%;
+ overflow-y: scroll;
+ height: 96% }
+
+.tinyText {
+ position: absolute;
+ top:200px;  left:0px; padding-left: 5px;
+ width: 61%;
+}
+
+.tinyText .DHQarticle
+ { font-size: 60%; width: 61% }
+
+div.counter { float: right; margin-right: -50px; font-size: 150% }
+
+img { max-width: 161% }
+
+.tinyText a.ref { font-size: 120%; background-color: skyblue }
+
+.tinyText table.speech { width: 100% }
+/*.tinyText table.speech td { border-top: thin solid black }*/
+.tinyText table.speech td.speaker { text-align: right; vertical-align: text-top; width: 30% }
+
+
+
+/* div.ptext */
+/* 
+
+div.table { font-size: 20% } 
+
+.tinyText h1 { font-size: 60% }
+.tinyText h2 { font-size: 50% }
+.tinyText h3 { font-size: 42% }
+.tinyText h4 { font-size: 36% }
+.tinyText h5 { font-size: 24% }
+.tinyText h6 { font-size: 18% }
+*/

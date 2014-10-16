@@ -1,0 +1,2417 @@
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Aging (Albany NY)</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Aging (Albany NY)</journal-id>
+      <journal-id journal-id-type="publisher-id">ImpactJ</journal-id>
+      <journal-title-group>
+        <journal-title>Aging (Albany NY)</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1945-4589</issn>
+      <publisher>
+        <publisher-name>Impact Journals LLC</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">24036467</article-id>
+      <article-id pub-id-type="pmc">3808701</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Paper</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Age-associated miRNA Alterations in Skeletal Muscle from Rhesus Monkeys reversed by caloric restriction</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mercken</surname>
+            <given-names>Evi M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Majounie</surname>
+            <given-names>Elisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ding</surname>
+            <given-names>Jinhui</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guo</surname>
+            <given-names>Rong</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kim</surname>
+            <given-names>Jiyoung</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bernier</surname>
+            <given-names>Michel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mattison</surname>
+            <given-names>Julie</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cookson</surname>
+            <given-names>Mark R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gorospe</surname>
+            <given-names>Myriam</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>de Cabo</surname>
+            <given-names>Rafael</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abdelmohsen</surname>
+            <given-names>Kotb</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <sup>1</sup> Experimental Gerontology Section, Translational Gerontology Branch, National Institute on Aging, National Institutes of Health, Baltimore, MD 21224, USA</aff>
+      <aff id="A2">
+        <sup>2</sup> Cell Biology and Gene Expression Section, Laboratory of Neurogenetics, National Institute on Aging, National Institutes of Health, Bethesda, MD 20892, USA</aff>
+      <aff id="A3">
+        <sup>3</sup> Laboratory of Genetics, National Institute on Aging, National Institutes of Health, Baltimore, MD 21224, USA</aff>
+      <author-notes>
+        <corresp id="cor1">
+          <bold>
+            <italic>Correspondence to:</italic>
+          </bold>
+          <italic>Kotb Abdelmohsen, PhD</italic>; <email>abdelmohsenk@mail.nih.gov</email>
+        </corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>9</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>9</day>
+        <month>9</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>9</issue>
+      <fpage>692</fpage>
+      <lpage>703</lpage>
+      <history>
+        <date date-type="received">
+          <day>16</day>
+          <month>8</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>7</day>
+          <month>9</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright: © 2013 Mercken et al.</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.5/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The levels of microRNAs (miRNAs) are altered under different conditions such as cancer, senescence, and aging. Here, we have identified differentially expressed miRNAs in skeletal muscle from young and old rhesus monkeys using RNA sequencing. In old muscle, several miRNAs were upregulated, including miR-451, miR-144, miR-18a and miR-15a, while a few miRNAs were downregulated, including miR-181a and miR-181b. A number of novel miRNAs were also identified, particularly in old muscle. We also examined the impact of caloric restriction (CR) on miRNA abundance by reverse transcription (RT) followed by real-time, quantitative (q)PCR analysis and found that CR rescued the levels of miR-181b and chr1:205580546, and also dampened the age-induced increase in miR-451 and miR-144 levels. Our results reveal that there are changes in expression of known and novel miRNAs with skeletal muscle aging and that CR may reverse some of these changes to a younger phenotype.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>gene expression</kwd>
+        <kwd>posttranscriptional gene regulation</kwd>
+        <kwd>muscle aging</kwd>
+        <kwd>muscle diseases</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>INTRODUCTION</title>
+      <p>Aging is a major risk factor for sarcopenia, the degenerative loss of skeletal muscle mass and strength. Skeletal muscle is central to the quality of human life through its involvement in several functions such as posture maintenance, movement, breathing, and metabolism [<xref ref-type="bibr" rid="R1">1</xref>, <xref ref-type="bibr" rid="R2">2</xref>]. Age-related alterations in the composition of skeletal muscle are linked to functional limitations, disability and metabolic disorders. Alterations in muscle damage and repair during aging can have deleterious consequences that lead to muscle degeneration and inflammation [<xref ref-type="bibr" rid="R3">3</xref>]; most of the age-related declines in muscle homeostasis and function can be prevented by caloric restriction (CR) in laboratory animals [<xref ref-type="bibr" rid="R4">4</xref>]. Changes in gene expression critically govern the age-related alterations in muscle mass and function. The underlying mechanisms that elicit muscle aging include oxidative stress, mitochondrial dysfunction (structural integrity and biogenesis), apoptosis, autophagy, and reduction in protein synthesis [<xref ref-type="bibr" rid="R1">1</xref>, <xref ref-type="bibr" rid="R5">5</xref>].</p>
+      <p>MicroRNAs (miRNAs) regulate gene expression by recruiting the RNA-induced silencing complex (RISC) to a target mRNA with which it shares partial complementarity, causing a reduction in the stability of the mRNA and/or its rate of translation [<xref ref-type="bibr" rid="R6">6</xref>]. The expression of miRNAs is altered in many biological processes such as development, cell division, differentiation, and senescence, as well as in pathological conditions like cancer, cardiovascular disease, amytrophic lateral sclerosis (ALS), and <italic>muscular dystrophy</italic> [<xref ref-type="bibr" rid="R7">7</xref>-<xref ref-type="bibr" rid="R17">17</xref>]. The relevance of miRNAs in disease development, muscle aging, and progression and prognosis of skeletal muscle diseases is not fully understood. The profiling of miRNAs in aged tissues can provide direct links between aging, age-dependent regulation of miRNA abundance, and the involvement of miRNAs in normal aging and age-related diseases. In this study, changes in miRNAs in skeletal muscle from rhesus monkeys of different ages were assessed using RNA sequencing (RNA-Seq). Our results showed clear differences in muscle miRNA levels when comparing old and young animals, and that CR influences these age-induced changes in miRNA expression. Novel miRNAs were also identified in muscle of old and young rhesus monkeys, which could potentially be expressed in human skeletal muscle. Together, our study provides further support for the role of miRNAs in skeletal muscle aging and reveals the impact of CR on miRNA expression.</p>
+    </sec>
+    <sec id="s2">
+      <title>RESULTS</title>
+      <sec id="s2_1">
+        <title>Global miRNA changes between young and old skeletal muscles from rhesus monkeys</title>
+        <p>Sequencing of miRNAs was performed using RNA isolated from skeletal muscle tissues of four young male (6 years) and four old male (26.8 years) rhesus monkeys. miRNA reads were analyzed using miRDeep2 software and mapped to the rhesus genome. This analysis revealed differentially expressed miRNAs (<xref ref-type="supplementary-material" rid="SD1">Table S1</xref>). For instance, miR-451, miR-144, miR-15a, miR-15b, miR18a, and miR-34a were significantly more abundant in skeletal muscle tissues from old compared to young rhesus (Table <xref ref-type="table" rid="T1">1</xref>, <italic>top</italic>), p values of ≤0.005, while other miRNAs, such as miR 181a, miR-181b, miR-1323, and miR-489, were significantly lower in skeletal muscle tissues from oldrhesus (Table <xref ref-type="table" rid="T1">1</xref>, <italic>bottom</italic>), p values of ≤0.005. The changes in a subset of miRNAs were validated by real-time reverse transcription PCR (RT-qPCR) (Fig. <xref ref-type="fig" rid="F1">1A</xref>). An example of successful amplification of miR-144 from young and old skeletal muscle tissues is shown in Fig. <xref ref-type="fig" rid="F1">1B</xref>. In addition, end-products of the RT-qPCR reactions after 40 cycles (and therefore not quantitative) were analyzed by electrophoresis through agarose gels to confirm that a single DNA species was amplified (Fig. <xref ref-type="fig" rid="F1">1C</xref>).</p>
+        <table-wrap id="T1" orientation="portrait" position="float">
+          <label>Table 1</label>
+          <caption>
+            <title>Differentially expressed miRNAs in aged skeletal muscle tissues from rhesus monkeys</title>
+            <p>RNA extracted from young and old monkeys was used for miRNA sequencing. p values of ≤0.005 are indicated.</p>
+          </caption>
+          <table frame="below" rules="groups">
+            <thead>
+              <tr>
+                <th align="center" valign="top" rowspan="1" colspan="1">miRNA ID</th>
+                <th align="center" valign="top" rowspan="1" colspan="1">Fold Change</th>
+                <th align="center" valign="top" rowspan="1" colspan="1">P-Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-451</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">84.750</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.001</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-144</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">53.594</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-129</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">46.824</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.045</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-200c</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">30.109</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.022</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-942</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">18.402</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.025</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-141</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">18.233</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.002</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-142-3p</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">11.852</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.006</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-18a</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">10.082</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-106b</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">6.358</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.005</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-15b</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">4.606</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.046</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-215</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">4.307</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.011</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-223</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">4.290</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-194</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">4.194</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.001</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-409-5p</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">4.159</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.030</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-93</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">3.915</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.017</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-17-5p</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">3.501</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.004</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-495</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">3.448</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.042</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-32</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">3.402</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.020</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-19a</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">3.401</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.048</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-20a</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">3.276</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.003</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-1271</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">3.164</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.001</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-17</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">2.988</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.036</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-221</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">2.808</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.005</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-339</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">2.741</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.005</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-16</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">2.649</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.051</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-34a</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">2.623</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.020</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-15a</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">2.457</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.007</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-192</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">2.299</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.015</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-19b</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">1.963</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.044</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-29b</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">1.894</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.058</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-181b</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.521</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.056</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-181a</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.495</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.037</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-653</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.435</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.033</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-489</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.341</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.003</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">mml-miR-1323</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.283</td>
+                <td align="center" valign="top" rowspan="1" colspan="1">0.001</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <fig id="F1" orientation="portrait" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <title>miRNA detection</title>
+            <p>
+              <bold>(A)</bold> Total RNA was extended by the addition of a poly(A) tail to the 3' end using poly(A) polymerase. Hybridization of the adaptor was followed by reverse transcription to synthesize first-strand. RT-qPCR was then performed using a universal reverse primer and miRNA-specific forward primer. <bold>(B)</bold> An example of amplification curve of miR-144 in young and old tissues. <bold>(C)</bold> After amplification, the end-product was size-fractionated and visualized by ethidium bromide agarose gels.</p>
+          </caption>
+          <graphic xlink:href="aging-05-692-g001"/>
+        </fig>
+      </sec>
+      <sec id="s2_2">
+        <title>CR ameliorates age-mediated changes in miRNA levels in old skeletal muscle tissues</title>
+        <p>RT-qPCR analysis indicated that miR-451 and miR-144 levels increased by 35-fold and 25-fold, respectively, while other miRNAs such as miR-18a, miR-15a, and miR-15b showed modest changes in muscle tissues from old compared with young monkeys (Fig. <xref ref-type="fig" rid="F2">2A,B</xref>). In contrast, miR-181b, miR-1323, miR653, and miR-489 were less abundant in old versus young muscle tissues (Fig. <xref ref-type="fig" rid="F2">2C</xref>). The validation experiments included RNA samples from 9 monkeys (27.8 years, males) subjected to caloric restriction (CR) as previously described [<xref ref-type="bibr" rid="R53">53</xref>]. When the impact of CR on age-associated changes in miRNA levels was investigated, we found that CR significantly lowered age-mediated induction of miR-451 and miR-144 as well as the enhanced expression of miR-18a and miR-15a (Fig. <xref ref-type="fig" rid="F2">2A</xref>).</p>
+        <fig id="F2" orientation="portrait" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <title>Validation of age-associated miRNA alterations and impact of CR</title>
+            <p>
+              <bold>(A-C)</bold> RT-qPCR analysis showing the abundance of the indicated miRNAs in young (Y), old (O), and old CR (OCR). RNAs from 9 Y samples, 7 O samples, and 9 OCR samples were used for this analysis and data was normalized to the average of U1 and U6 snRNA levels.</p>
+          </caption>
+          <graphic xlink:href="aging-05-692-g002"/>
+        </fig>
+        <p>In contrast, the levels of miR-15b, miR-106b, miR-200c, and miR-129-5p in old tissues were not influenced by CR, while the expression of miR-223 appeared to be further enhanced (Fig. <xref ref-type="fig" rid="F2">2B</xref>). CR increased the abundance of miR-1323, which was downregulated in old muscle tissues; similarly, the age-associated reduction of miR-181b and miR-489 was reversed by CR, while miR-653 was only slightly influenced (Fig. <xref ref-type="fig" rid="F2">2C</xref>). Together, these data suggest that miRNA expression pattern changes in aged skeletal muscle tissues and CR may selectively influence the levels of a subset of these miRNAs.</p>
+      </sec>
+      <sec id="s2_3">
+        <title>Age-altered miRNAs are involved in skeletal muscle development and disorders</title>
+        <p>Using Ingenuity Pathways Analysis (IPA), we performed a comparative analysis of altered miRNAs between young and old skeletal muscle tissues to obtain a global view of the involvement of these miRNAs in biological processes. Interestingly, miRNAs upregulated in old tissues were found to be involved in connective tissue and skeletal muscle disorders, cell cycle, inflammatory diseases, inflammatory response, and skeletal and muscular system development and function (Fig. <xref ref-type="fig" rid="F3">3A</xref>). Moreover, downregulated miRNAs were involved in cardiovascular disease, cell death, and neurological and skeletal muscle disorders (Fig. <xref ref-type="fig" rid="F3">3B</xref>). These data indicate that the altered miRNAs in aged muscle are involved in several cellular processes and diseases while both subsets of miRNAs are associated with skeletal muscle disorders.</p>
+        <fig id="F3" orientation="portrait" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <title>Age-associated miRNA alterations are involved in skeletal muscle development and disorders</title>
+            <p>
+              <bold>(A,B)</bold> Differentially expressed miRNAs shown in Table <xref ref-type="table" rid="T1">1</xref> were analyzed using Ingenuity Pathway Analysis (IPA). The analysis revealed that these miRNAs are linked to muscle development and disorders.</p>
+          </caption>
+          <graphic xlink:href="aging-05-692-g003"/>
+        </fig>
+      </sec>
+      <sec id="s2_4">
+        <title>Novel miRNAs revealed by RNA sequencing</title>
+        <p>RNA sequencing enabled the identification of novel miRNAs (Fig. <xref ref-type="fig" rid="F4">4</xref>). Among the known miRNAs, 13 miRNAs were shared among 4 young muscle tissues (Y1-Y4) (Fig. <xref ref-type="fig" rid="F4">4A</xref>, <italic>left</italic>), whereas 27 miRNAs were common in 4 old tissues (O1-O4) (Fig. <xref ref-type="fig" rid="F4">4A</xref>, <italic>middle</italic>). Interestingly, twice as many novel miRNAs were identified in muscle tissues from old monkeys (~ 450) compared to those identified in young tissues (~180) (Fig. <xref ref-type="fig" rid="F4">4A</xref>, <italic>right</italic>). Complete lists of novel miRNAs in young and old samples are provided (<xref ref-type="supplementary-material" rid="SD2">Tables S2</xref> and <xref ref-type="supplementary-material" rid="SD3">S3</xref>). From this analysis, it appears that several novel miRNAs in monkey muscle tissues have previously been identified in humans. For instance, the precursor coordinates of (chr16:11829814-11829892) and (chr14:109970184-109970240) identified miRNAs that corresponded to the human homologues hsa-miR-744-5p and hsa-miR-34a-5p, respectively (Fig. <xref ref-type="fig" rid="F4">4B</xref>). In contrast, other novel monkey miRNAs such as those from precursor coordinates (chr18:6923491-6923553) and (chr16:63341749-63341805) did not have any human miRNA homologues (Fig. <xref ref-type="fig" rid="F4">4B</xref>). These data highlight miRNA sequencing as a method to uncover novel age-associated miRNAs and new human homologues in rhesus monkeys muscle tissues.</p>
+        <fig id="F4" orientation="portrait" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <title>Identification of novel miRNAs in young and old skeletal muscle tissues from rhesus monkeys</title>
+            <p>
+              <bold>(A)</bold> Venn diagrams showing the number of miRNAs identified in young (Y) tissues (left), old (O) tissues (middle) and shared between young (Y) and old (O) tissues (right). <bold>(B)</bold>Partial list of novel miRNAs, <sup>1</sup>location of the miRNA precursor in the human genome, <sup>2</sup>miRDeep2 score represents the log-odds probability of a sequence being genuine miRNA precursor versus the probability that it is a background hairpin, <sup>3</sup>mature miRNA sequence used for validation, <sup>4</sup>estimated probability that a predicted novel miRNA with a score of this or higher is a true positive, <sup>5</sup>sum of read counts that map to the predicted mature, loop and star miRNAs, and <sup>6</sup>similar miRNA sequences found in human genome match the novel sequences detected in rhesus monkey.</p>
+          </caption>
+          <graphic xlink:href="aging-05-692-g004"/>
+        </fig>
+      </sec>
+      <sec id="s2_5">
+        <title>Identification of novel miRNAs in human muscle tissues</title>
+        <p>As discussed above, we identified human homologues of novel miRNAs identified in rhesus monkeys using BLAST. Several miRNAs that had not previously been annotated in rhesus monkey appeared to have human homologues. An example is miR-744-5p, which is a novel miRNA in rhesus monkey and is conserved in human and mouse (Fig. <xref ref-type="fig" rid="F5">5A</xref>, top). In contrast, chr3:123916880 is only conserved in human, rhesus, and chimpanzee (Fig. <xref ref-type="fig" rid="F5">5A</xref>).</p>
+        <fig id="F5" orientation="portrait" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <title>Novel miRNAs in human muscle tissues</title>
+            <p>
+              <bold>(A)</bold> Examples of MULTIZ alignment blocks of chr16:11829814 showing its human homologue miR-744-5p (top) and chr3:123916880 showing similar sequence in human (bottom). <bold>(B)</bold> Representative qPCR products visualized in ethidium bromide-stained agarose gels. These products were obtained using human RNA samples (I,2) from skeletal muscle tissues.</p>
+          </caption>
+          <graphic xlink:href="aging-05-692-g005"/>
+        </fig>
+        <p>Next, RT-qPCR analysis was performed using total RNA from human adult skeletal muscle tissues in order to confirm that putative novel miRNAs are expressed also in humans. Conserved miRNAs such as miR-181b, miR-451, miR-15b, miR18a, and miR-15 were amplified as positive controls (Fig <xref ref-type="fig" rid="F5">5B</xref>, <italic>top</italic>) and the human miRNA homologues such as mml-chr1:205580546, mml-chr15:10478591 and mml-chr7:164844828 were identified as well (Fig. <xref ref-type="fig" rid="F5">5B</xref>, <italic>middle</italic>). Furthermore, novel rhesus monkey miRNAs such as mml-chr3:123916880 and its human homologue hsa-chr7:92942485 were also amplified (Fig. <xref ref-type="fig" rid="F5">5B</xref>, <italic>bottom</italic>). Thus, a number of novel rhesus monkey miRNAs with known annotation in human genome have been identified in human skeletal muscle along with other miRNAs with no previous annotations.</p>
+      </sec>
+      <sec id="s2_6">
+        <title>Effect of age and CR on novel miRNA expression</title>
+        <p>Several novel miRNAs identified in rhesus monkeys were validated by RT-qPCR and the end products were fractionated on agarose gel (Fig. <xref ref-type="fig" rid="F6">6A</xref>). All tested miRNAs showed single bands at the expected size; however, chr13:75089548, chr8:146751538, and chr3:123916880 showed additional bands in the range of 100 nt, which could represent miRNA precursors. A subset of these miRNAs were altered either by age, CR or both. For instance, chr10:84006376, chr1:205580546, miR-1247, miR-2964a, and chr14:7902219 levels were lower in skeletal muscles of old monkeys. The reduction in expression of some of these miRNAs, e.g., chr1:205580546 and chr14:7902219, was reversed by CR. While the abundance of miRNAs such as chr18:6923491 and chr9:67567377 were not influenced by the age of the monkey, their expression was increased by CR (Fig. <xref ref-type="fig" rid="F6">6B</xref>). <xref ref-type="supplementary-material" rid="SD4">Table S4</xref> depicts a complete list of changes in novel miRNA expression with age. Together, these data indicate that age and CR are factors that can alter expression of several novel miRNAs in skeletal muscle tissues of rhesus monkeys.</p>
+        <fig id="F6" orientation="portrait" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <title>Novel miRNAs and impact of CR</title>
+            <p>
+              <bold>(A)</bold> Representative qPCR products visualized in ethidium bromide-stained agarose gels. These products were obtained using RNA isolated from rhesus monkeys skeletal muscles. <bold>(B)</bold> RT-qPCR analysis of the indicated novel miRNAs and the impact of CR on miRNA expression in OCR samples.</p>
+          </caption>
+          <graphic xlink:href="aging-05-692-g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>DISCUSSION</title>
+      <p>Aging encompasses a series of deleterious changes that accumulate in cells and tissues, increasing the risk of diseases and death [<xref ref-type="bibr" rid="R18">18</xref>]. Some of these changes are accompanied or driven by age-associated alterations in gene expression [<xref ref-type="bibr" rid="R19">19</xref>-<xref ref-type="bibr" rid="R21">21</xref>]. Muscle aging is characterized by reduced muscle mass, strength, and ability of regeneration to replace damaged muscle (sarcopenia) [<xref ref-type="bibr" rid="R22">22</xref>, <xref ref-type="bibr" rid="R23">23</xref>]. miRNAs are known to play key roles in the regulation of gene expression in a wide range of cellular processes such as proliferation, differentiation, cell survival, death and several other processes [<xref ref-type="bibr" rid="R25">25</xref>, <xref ref-type="bibr" rid="R26">26</xref>]. Altered miRNA expression is associated with many biological processes such as cell differentiation, senescence, and division and with pathological conditions including cancer and muscle disorders [<xref ref-type="bibr" rid="R17">17</xref>, <xref ref-type="bibr" rid="R27">27</xref>-<xref ref-type="bibr" rid="R31">31</xref>].</p>
+      <p>Profiling of miRNAs provides direct evidence that they are regulated in aged tissues. We previously reported miRNA changes associated with age in peripheral blood mononuclear cells and with replicative senescence of WI-38 human diploid fibroblasts [<xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R32">32</xref>]. In the current study, we provide age-associated changes in miRNA expression by sequencing RNAs from young and old skeletal muscle tissues obtained from rhesus monkeys (Table <xref ref-type="table" rid="T1">1</xref> and <xref ref-type="supplementary-material" rid="SD1">Table S1</xref>). Some of the altered miRNAs are known to be associated with senescence or aging in mouse and human tissues as discussed below.</p>
+      <p>miR-144 functions in a cluster with miR-451 and both showed the strongest upregulation in old skeletal muscle tissues from rhesus monkeys, as indicated by RNA sequencing and RT-qPCR (Table <xref ref-type="table" rid="T1">1</xref> and Fig. <xref ref-type="fig" rid="F2">2</xref>). It appears that this cluster is also altered in other aged tissues; for example, the expression of miR-451 is significantly higher in old foreskins compared with young foreskins [<xref ref-type="bibr" rid="R33">33</xref>], and miR-451 expression was also elevated in lung tissues of BALB/c old mice [<xref ref-type="bibr" rid="R34">34</xref>]. Interestingly, the age-associated increase in miR-144 and miR451 was dampened by CR (Fig. <xref ref-type="fig" rid="F2">2</xref>), suggesting a protective effect of CR against cellular alterations induced by elevated levels of these miRNAs or perhaps reflected the higher muscle mass in CR monkeys compared to monkeys in normal diet. Interestingly, human subjects who are ‘high responders’ to resistance exercise training, which increases muscle mass, demonstrated lower levels of miR-451 in skeletal muscle than low responders [<xref ref-type="bibr" rid="R35">35</xref>]. Together, these miRNAs could be globally altered in several other aged tissues and influenced by exercise training and CR; whether these miRNAs affect other aspects of aging remains to be studied.</p>
+      <p>The cluster of miR-17-92 includes six members (miR-17, miR-18a, miR-19a, miR-19b, miR-20a, and miR-92a-1); five of them are upregulated in old skeletal muscle tissues (Table <xref ref-type="table" rid="T1">1</xref>). It has been reported that miR-18a, miR-19a and miR-19b are downregulated in age-related heart failure [<xref ref-type="bibr" rid="R6">6</xref>]. These findings suggest protective effects of these miRNAs in aged muscle tissues and healthy cardiac aging.</p>
+      <p>While several miRNAs were upregulated in old muscle tissues, a few were downregulated, including miR-181a (Table <xref ref-type="table" rid="T1">1</xref>), in agreement with the lower expression of miR-181a in skeletal muscle tissues of old mice [<xref ref-type="bibr" rid="R37">37</xref>]. Furthermore, miR-181 has been found to be anti-inflammatory by suppressing the expression of pro-inflammatory cytokines such as TNF-α, IL-6, IL-1β, and IL-8 [<xref ref-type="bibr" rid="R38">38</xref>, <xref ref-type="bibr" rid="R39">39</xref>]. It is important to note that an age-associated decrease in miR-181a was also observed in mouse brain but the impact of miR-181a on brain aging is unknown [<xref ref-type="bibr" rid="R40">40</xref>]. In aged human subjects, reduced miR-181a was found to be associated with impaired T-cell receptor sensitivity by increasing the activity of dual specificity phosphatase 6 (DUSP6) [<xref ref-type="bibr" rid="R41">41</xref>]. Additionally, miR-181a may potentially regulate the type IIA activin receptor, which inhibits proliferation of skeletal muscle-derived progenitors through Smad 2/3 phosphorylation [<xref ref-type="bibr" rid="R42">42</xref>]. This observation suggests that downregulation of miR-181a in old muscle tissues may restrict satellite cell proliferation and thus reduce the ability to replace damaged muscle.Thus, we propose that downregulation of miR-181a may be related to increased inflammation in the elderly. However, CR rescued the age-related decline of miR-181a (Fig. <xref ref-type="fig" rid="F2">2</xref>), which may reflect enhanced muscle mass, strength, and proliferation, as well as reduced inflammation in these animals.</p>
+      <p>Other miRNAs downregulated with age include miR-489, miR-653, and miR-1323 (Table <xref ref-type="table" rid="T1">1</xref> and Fig. <xref ref-type="fig" rid="F2">2c</xref>). miR-489 is highly expressed in satellite cells, where it maintains muscle stem-cell quiescence by suppressing the oncogene Dek and thereby preventing the transient proliferative expansion of myogenic progenitors [<xref ref-type="bibr" rid="R43">43</xref>]. Short-term CR was recently found to enhance skeletal muscle stem cell function in mice [<xref ref-type="bibr" rid="R44">44</xref>], suggesting that the age-related decline in miR-489 could be linked to the reduced pool and functions of satellite cells in old muscle tissues, while CR may restore the levels of miR-489. It is also possible that the higher level of miR-489 in miyoshi myopathy and nemaline myopathy [<xref ref-type="bibr" rid="R45">45</xref>] alters muscle cell differentiation and hence tissue repair leading to muscular dystrophy. Future studies are needed to reveal if the age-related decline of miR-489 affects muscle stem cell in the elderly, muscle diseases, and life span.</p>
+      <p>In addition to differentially expressed miRNAs, sequencing also identified novel miRNAs (<xref ref-type="supplementary-material" rid="SD2">Tables S2</xref>-<xref ref-type="supplementary-material" rid="SD4">S4</xref> and Figs. <xref ref-type="fig" rid="F4">4</xref>-<xref ref-type="fig" rid="F6">6</xref>). We divided the novel miRNAs in this study into two groups. The first group includes novel miRNAs that have annotated human homologues, whereas the second group consisted of novel miRNAs that have no match with known miRNAs. We also present evidence that the un-annotated novel miRNAs could be expressed in human skeletal muscle tissues indicating that similar miRNAs could be identified in humans (Fig. <xref ref-type="fig" rid="F5">5</xref>). Validation by RT-qPCR indicated that age and CR can alter their expression (Fig. <xref ref-type="fig" rid="F6">6</xref>). The regulatory mechanisms responsible for the altered microRNA levels in old and young muscles are not known at this time, but they likely include arrays of transcriptional and post-transcriptional regulatory factors, as reported for other age and senescence-associated gene expression patterns [<xref ref-type="bibr" rid="R46">46</xref>-<xref ref-type="bibr" rid="R51">51</xref>].</p>
+      <p>In summary, we have identified age-associated alterations in miRNA expression of skeletal muscle tissues from rhesus monkeys. We also identified collections of novel miRNAs both in young and old muscle tissues and showed that age-related changes of known and novel miRNAs are influenced and in some cases reversed by CR. Future studies will help to recognize the roles of these changes, including novel miRNAs, in life span and age-related muscle diseases.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>MATERIALS AND METHODS</title>
+      <sec id="s4_1">
+        <title>RNA isolation, miRNA sequencing and IPA analysis</title>
+        <p>Skeletal muscle tissues obtained from 9 young (Y), 7 old (O) and 9 caloric restricted old (OCR) rhesus monkeys were homogenized in Trizol (Invitrogen, NY, USA) and used to isolate total RNA according to manufacturer's protocol. Total RNAs samples from human adult normal skeletal muscle tissues were obtained from Biochain (Newark, CA, USA). These RNA samples included RNA sample from one donor (R1234171-50) and a mixture of RNA samples from five donors (R1234171-P).</p>
+        <p>Total RNA from rhesus monkeys were used for miRNA sequencing or validation by RT-qPCR (details below). The TruSeq Small RNA kit (Illumina, San Diego, CA, USA) was used to isolate miRNAs from young and old total RNA according to manufacturer's protocol. Briefly, adapters specific to the 5'-phosphate and 3'-hydroxyl group were ligated to total RNA. The ligation product was then reverse transcribed and amplified using indexed primers. The resulting cDNA constructs were size-selected using <italic>Polyacrylamide gel</italic> electrophoresis (PAGE) and concentrated by ethanol precipitation. The miRNA library was validated and quantified on an Agilent Technology 2100 Bioanalyzer. Indexed libraries were pooled prior to clustering on an Illumina TruSeq flowcell and then sequenced. The results of differentially expressed miRNAs were subjected to Ingenuity Pathway Analysis (IPA) to determine possible participation of these changes in biological processes.</p>
+      </sec>
+      <sec id="s4_2">
+        <title>cDNA synthesis, RT-qPCR, DNA gel electrophoresis and imaging</title>
+        <p>QuantiMir RT Kit (System Biosciences, CA, USA) was used to validate miRNA sequencing data. Mature known and novel miRNAs as well as U1 and U6 small nuclear RNAs (snRNAs) were detected from skeletal muscle total RNA. Briefly, all cellular RNA was polyadenylated using poly(A) polymerase at 37°C for 10 min, thus enabling the subsequent annealing of a oligo-dT adaptor for 5 min at 60°C. The miRNA levels of miRNAs were assessed by RT-qPCR using the SYBR green PCR master mix (Kapa Biosystems, MA, USA), a universal reverse primer, and miRNA-specific forward primers obtained from Integrated DNA Technologies CA, USA (see below). RT-qPCR analysis was performed on Applied Biosystems (NY, USA) model 7300 and 7900 instruments and the averaged U1 and U6 snRNA levels were used for normalization. Specific miRNA forward primers were as follows: TACAGTATAGATGATGTACT for miR-144; TAGCAGCACATAATGGTTTGTG for miR-15a; TAGCAGCACATCATGGTTTACA for miR-15b; TAAAGTGCTGACAGTGCAGAT for miR-106b; AAGCCCTTACCCCAAAAAGTAT for miR-129-3p; CTTTTTGCGGTCTGGGCTTGC for miR-129-5p; TAAGGTGCATCTAGTGCAGATA for miR-18a; AATACTGCCGGGTAATGATGGA for miR-200c; TGGCAGTGTCTTAGCTGGTTGT for miR-34a; TGTCAGTTTGTCAAATACCCC for miR-223; GAATGTTGCTCGGTGAACCCCT for miR-409-3p; AAACAAACATGGTGCACTTCTT for miR-495; AAACCGTTACCATTACTGAGTT for miR-451; TCAAAACTGAGGGGCATTTTC for miR-1323; AACATTCATTGCTGTCGGTGGGTT for miR-181b; GTGTTGAAACAATCTCTACTG for miR-653; GTGACATCACATATACGGCAGC for miR-489; AGGAGTGACAGAGTTAGACTC for chr18:6923491; TGCGGGGCTAGGGCTAACAGC for miR-744-5p; ACGATAACACCCAAGTCCGAA for chr10:84006376; AAAAACCGTAGTTACTTTTGC for miR-548ao; TGCTGTCCCTCCAGAGCCGTGGC for chr15: 1147236; TCGACCGGACCTCGACCGGC for miR-1307-5p; TTTAGTGTGATAATGGCGTT for miR-3591-5p; ACTGGGCTTGGAGTCAGAAGAC for miR-378g; TTGGGTGACATTTGTAGATG for miR-1262; CTCCGTTTGCCTGTTTTGCTGA for miR-1468; TCTGATCGTTCCCCTCCATACA for chr1:205580546; AAGCAAGTCAGGCTTGGCAAAG for chr3:123916880; UAACGCAUAAUAUGGAUAU GU for miR-3912; AAAAGGAATTGCGGTTTTTGA CA for miR-548an;ACCCGTCCCGTTCGTCCCCGA for miR-1247; CCTGTTTGTCTGAAATTCAAAT for chr8:146751538; TCCCCCAGTCTGGCCACAGAGC for chr9:67567377; TCTGTGCAGAACTCATAGAAG for chr12:41976864; TCCTGGGCTTTGGCAGACAGC for chr13:75089548; CCCCCGTCTCTCTCTGTTCAG for chr14:7902219; and AGATGTCCAGCCACAATT CTCG for chr15:10478591. U1 and U6 forward primer sequences were CACCACGTTTATACGCCGGTG and CGACTGCATAATTTGTGGTAGTGG respectively. RT-qPCR products were size-separated using 4% ethidium bromide agarose gels and visualized on an ultraviolet transilluminator EL LOGIC 1500 imaging system.</p>
+      </sec>
+      <sec id="s4_3">
+        <title>Animals</title>
+        <p>Rhesus monkeys (<italic>Macaca mulatta</italic>) were housed continuously at the NIH Animal Center, Poolesville, MD. The animal center is fully accredited by the American Association for Accreditation of Laboratory Animal Care, and all procedures were approved by the Animal Care and Use Committee of the NIA Intramural Program. Monkeys were housed individually in standard nonhuman primate caging on a 12h light/12h dark cycle, room temperature 25.5 ± 0.5 °C, humidity at 60 ± 20%. Monkeys received 2 meals per day at estimated <italic>ad libitum</italic> levels throughout the study and water was always available. Monkeys were monitored minimally 3 times daily by trained animal care staff. Young and old monkeys were obtained from an ongoing NIA longitudinal study on dietary manipulation and aging that began in 1987 [<xref ref-type="bibr" rid="R52">52</xref>, <xref ref-type="bibr" rid="R53">53</xref>]. We used tissues obtained from 9 young (Y, ~6 years of age), 7 old (O, ~26.8 years of age), and 9 old caloric restricted (OCR, ~28.8 years of age), all males. While Y and O monkeys were maintained on normal diet (TestDiet® #5038 Purina Mills, Richmond, IN), OCR animals were maintained on caloric restricted diet (TestDiet® #5L1F, Purina Mills, Richmond, IN) most of their lives (20.8-22.6 years).</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>SUPPLEMENTARY TABLES</title>
+      <supplementary-material content-type="loca-data" id="SD1">
+        <media mimetype="application" mime-subtype="xlsx" xlink:href="aging-05-692-s001.xlsx" orientation="portrait" xlink:type="simple" id="d35e953" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="loca-data" id="SD2">
+        <media mimetype="application" mime-subtype="xlsx" xlink:href="aging-05-692-s002.xlsx" orientation="portrait" xlink:type="simple" id="d35e955" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="loca-data" id="SD3">
+        <media mimetype="application" mime-subtype="xlsx" xlink:href="aging-05-692-s003.xlsx" orientation="portrait" xlink:type="simple" id="d35e957" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="loca-data" id="SD4">
+        <media mimetype="application" mime-subtype="xlsx" xlink:href="aging-05-692-s004.xlsx" orientation="portrait" xlink:type="simple" id="d35e959" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>This research was supported in full by the National Institute on Aging, Intramural Research Program, National Institutes of Health. We thank N Noren Hooten (NIA, NIH) for helpful advice. We appreciate the animal care staff and technicians at the NIH Animal Center and the Oregon National Primate Research Center.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p>The authors of this manuscript have no conflict of interests to declare.</p>
+      </fn>
+    </fn-group>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term>ALS</term>
+          <def>
+            <p>Amytrophic Lateral Sclerosis</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>CR</term>
+          <def>
+            <p>caloric restriction</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>DMD</term>
+          <def>
+            <p>Duchenne muscular dystrophy</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>IL</term>
+          <def>
+            <p>interleukin</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>MD</term>
+          <def>
+            <p>Muscular Dystrophy</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>RISC</term>
+          <def>
+            <p>RNA-induced silencing complex</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>TNFα</term>
+          <def>
+            <p>tumor necrosis factor alpha</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="R1">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Marzetti</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Lees</surname>
+              <given-names>HA</given-names>
+            </name>
+            <name>
+              <surname>Wohlgemuth</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Leeuwenburgh</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Sarcopenia of aging: underlying cellular mechanisms and protection by calorie restriction</article-title>
+          <source>BioFactors</source>
+          <year>2009</year>
+          <volume>35</volume>
+          <fpage>28</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="pmid">19319843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Karakelides</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Nair</surname>
+              <given-names>KS</given-names>
+            </name>
+          </person-group>
+          <article-title>Sarcopenia of aging and its metabolic impact</article-title>
+          <source>Curr Top Dev Biol</source>
+          <year>2005</year>
+          <volume>68</volume>
+          <fpage>123</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="pmid">16124998</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Goto</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Inflammaging (inflammation + aging): A driving force for human aging based on an evolutionarily antagonistic pleiotropy theory?</article-title>
+          <source>Biosci Trends</source>
+          <year>2008</year>
+          <volume>2</volume>
+          <fpage>218</fpage>
+          <lpage>230</lpage>
+          <pub-id pub-id-type="pmid">20103932</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Park</surname>
+              <given-names>SK</given-names>
+            </name>
+            <name>
+              <surname>Prolla</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene expression profiling studies of aging in cardiac and skeletal muscles</article-title>
+          <source>Cardiovasc Res</source>
+          <year>2005</year>
+          <volume>66</volume>
+          <fpage>205</fpage>
+          <lpage>212</lpage>
+          <pub-id pub-id-type="pmid">15820189</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Welle</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Brooks</surname>
+              <given-names>AI</given-names>
+            </name>
+            <name>
+              <surname>Delehanty</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Needler</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Thornton</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene expression profile of aging in human muscle</article-title>
+          <source>Physiol genomics</source>
+          <year>2003</year>
+          <volume>14</volume>
+          <fpage>149</fpage>
+          <lpage>159</lpage>
+          <pub-id pub-id-type="pmid">12783983</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>van Almen</surname>
+              <given-names>GC</given-names>
+            </name>
+            <name>
+              <surname>Verhesen</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>van Leeuwen</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>van de Vrie</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Eurlings</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Schellings</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Swinnen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cleutjens</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>van Zandvoort</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Heymans</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Schroen</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNA-18 and microRNA-19 regulate CTGF and TSP-1 expression in age-related heart failure</article-title>
+          <source>Aging cell</source>
+          <year>2011</year>
+          <volume>10</volume>
+          <fpage>769</fpage>
+          <lpage>779</lpage>
+          <pub-id pub-id-type="pmid">21501375</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Marasa</surname>
+              <given-names>BS</given-names>
+            </name>
+            <name>
+              <surname>Srikantan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Martindale</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>EK</given-names>
+            </name>
+            <name>
+              <surname>Gorospe</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Abdelmohsen</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNA profiling in human diploid fibroblasts uncovers miR-519 role in replicative senescence</article-title>
+          <source>Aging</source>
+          <year>2010</year>
+          <volume>2</volume>
+          <fpage>333</fpage>
+          <lpage>343</lpage>
+          <pub-id pub-id-type="pmid">20606251</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Dhahbi</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Atamna</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Boffelli</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Magis</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Spindler</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>DI</given-names>
+            </name>
+          </person-group>
+          <article-title>Deep sequencing reveals novel microRNAs and regulation of microRNA expression during cell senescence</article-title>
+          <source>PloS one</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <issue>5</issue>
+          <fpage>e20509</fpage>
+          <pub-id pub-id-type="pmid">21637828</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Walter</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Valera</surname>
+              <given-names>VA</given-names>
+            </name>
+            <name>
+              <surname>Pinto</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Merino</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Comprehensive microRNA Profiling of Prostate Cancer</article-title>
+          <source>J Cancer</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <fpage>350</fpage>
+          <lpage>357</lpage>
+          <pub-id pub-id-type="pmid">23781281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Ma</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>YY</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>YL</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>ZJ</given-names>
+            </name>
+            <name>
+              <surname>Geng</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Profiling of microRNA-mRNA reveals roles of microRNAs in cervical cancer</article-title>
+          <source>Chinese medical journal</source>
+          <year>2012</year>
+          <volume>125</volume>
+          <fpage>4270</fpage>
+          <lpage>4276</lpage>
+          <pub-id pub-id-type="pmid">23217399</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Odenthal</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bollschweiler</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Grimminger</surname>
+              <given-names>PP</given-names>
+            </name>
+            <name>
+              <surname>Schroder</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Brabender</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Drebber</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Holscher</surname>
+              <given-names>AH</given-names>
+            </name>
+            <name>
+              <surname>Metzger</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Vallbohmer</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNA profiling in locally advanced esophageal cancer indicates a high potential of miR-192 in prediction of multimodality therapy response</article-title>
+          <source>Int J Cancer</source>
+          <year>2013</year>
+          <comment>doi: 10.1002/ijc.28253</comment>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Solomides</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Navenot</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Vadigepalli</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Peiper</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>ZX</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNA profiling in lung cancer reveals new molecular markers for diagnosis</article-title>
+          <source>Acta cytologica</source>
+          <year>2012</year>
+          <volume>56</volume>
+          <fpage>645</fpage>
+          <lpage>654</lpage>
+          <pub-id pub-id-type="pmid">23207443</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Peten</surname>
+              <given-names>EP</given-names>
+            </name>
+            <name>
+              <surname>Garcia-Perez</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Terada</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Woodrow</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Striker</surname>
+              <given-names>GE</given-names>
+            </name>
+            <name>
+              <surname>Striker</surname>
+              <given-names>LJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Age-related changes in alpha 1- and alpha 2-chain type IV collagen mRNAs in adult mouse glomeruli: competitive PCR</article-title>
+          <source>Am J Physiol</source>
+          <year>1992</year>
+          <volume>263</volume>
+          <fpage>F951</fpage>
+          <lpage>957</lpage>
+          <pub-id pub-id-type="pmid">1443183</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Karttunen</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Risteli</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Autio-Harmainen</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Risteli</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of age and diabetes on type IV collagen and laminin in human kidney cortex</article-title>
+          <source>Kidney Int</source>
+          <year>1986</year>
+          <volume>30</volume>
+          <fpage>586</fpage>
+          <lpage>591</lpage>
+          <pub-id pub-id-type="pmid">3784296</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Deyl</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Macek</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Adam</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes in the proportion of collagen type IV with age--possible role in transport processes</article-title>
+          <source>Exp Gerontol</source>
+          <year>1978</year>
+          <volume>13</volume>
+          <fpage>263</fpage>
+          <lpage>267</lpage>
+          <pub-id pub-id-type="pmid">689121</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>de Lencastre</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pincus</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Slack</surname>
+              <given-names>FJ</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNAs Both Promote and Antagonize Longevity in C-elegans</article-title>
+          <source>Curr Biol</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>2159</fpage>
+          <lpage>2168</lpage>
+          <pub-id pub-id-type="pmid">21129974</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Williams</surname>
+              <given-names>AH</given-names>
+            </name>
+            <name>
+              <surname>Valdez</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Moresi</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Qi</surname>
+              <given-names>XX</given-names>
+            </name>
+            <name>
+              <surname>McAnally</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Elliott</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Bassel-Duby</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Sanes</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>E N</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNA-206 Delays ALS Progression and Promotes Regeneration of Neuromuscular Synapses in Mice</article-title>
+          <source>Science</source>
+          <year>2009</year>
+          <volume>326</volume>
+          <fpage>1549</fpage>
+          <lpage>1554</lpage>
+          <pub-id pub-id-type="pmid">20007902</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Tosato</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Zamboni</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Ferrini</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Cesari</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The aging process and potential interventions to extend life expectancy</article-title>
+          <source>Clin Interv Aging</source>
+          <year>2007</year>
+          <volume>2</volume>
+          <fpage>401</fpage>
+          <lpage>412</lpage>
+          <pub-id pub-id-type="pmid">18044191</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Weindruch</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kayo</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>CK</given-names>
+            </name>
+            <name>
+              <surname>Prolla</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Microarray profiling of gene expression in aging and its alteration by caloric restriction in mice</article-title>
+          <source>J Nutr</source>
+          <year>2001</year>
+          <volume>131</volume>
+          <fpage>918s</fpage>
+          <lpage>923s</lpage>
+          <pub-id pub-id-type="pmid">11238786</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Higaki</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kojima</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Oishi</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Microarray profiling of gene expression in the aging monkey brain</article-title>
+          <source>Neurosci Res</source>
+          <year>2010</year>
+          <volume>68</volume>
+          <fpage>E305</fpage>
+          <lpage>E305</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Park</surname>
+              <given-names>SK</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Page</surname>
+              <given-names>GP</given-names>
+            </name>
+            <name>
+              <surname>Allison</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Weindruch</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Prolla</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene expression profiling of aging in multiple mouse strains: identification of aging biomarkers and impact of dietary antioxidants</article-title>
+          <source>Aging cell</source>
+          <year>2009</year>
+          <volume>8</volume>
+          <fpage>484</fpage>
+          <lpage>495</lpage>
+          <pub-id pub-id-type="pmid">19555370</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Frontera</surname>
+              <given-names>WR</given-names>
+            </name>
+            <name>
+              <surname>Zayas</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Aging of Human Muscle: Understanding Sarcopenia at the Single Muscle Cell Level</article-title>
+          <source>Phys Med Rehabil Clin N Am</source>
+          <year>2012</year>
+          <volume>23</volume>
+          <fpage>201</fpage>
+          <lpage>207</lpage>
+          <pub-id pub-id-type="pmid">22239884</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of skeletal muscle mass in aging: Examining the relationship of starvation, sarcopenia and cachexia</article-title>
+          <source>Clin Nutr</source>
+          <year>2007</year>
+          <volume>26</volume>
+          <fpage>389</fpage>
+          <lpage>399</lpage>
+          <pub-id pub-id-type="pmid">17499396</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Angeli</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Minetto</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Dovio</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Paccotti</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>The overtraining syndrome in athletes: A stress-related disorder</article-title>
+          <source>J Endocrinol Invest</source>
+          <year>2004</year>
+          <volume>27</volume>
+          <fpage>603</fpage>
+          <lpage>612</lpage>
+          <pub-id pub-id-type="pmid">15717662</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Kloosterman</surname>
+              <given-names>WP</given-names>
+            </name>
+            <name>
+              <surname>Plasterk</surname>
+              <given-names>RHA</given-names>
+            </name>
+          </person-group>
+          <article-title>The diverse functions of MicroRNAs in animal development and disease</article-title>
+          <source>Dev Cell</source>
+          <year>2006</year>
+          <volume>11</volume>
+          <fpage>441</fpage>
+          <lpage>450</lpage>
+          <pub-id pub-id-type="pmid">17011485</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Bushati</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>SM</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNA functions</article-title>
+          <source>Annu Rev Cell Dev Bi</source>
+          <year>2007</year>
+          <volume>23</volume>
+          <fpage>175</fpage>
+          <lpage>205</lpage>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Chen</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Callis</surname>
+              <given-names>TE</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>DZ</given-names>
+            </name>
+          </person-group>
+          <article-title>microRNAs and muscle disorders</article-title>
+          <source>J Cell Sci</source>
+          <year>2009</year>
+          <volume>122</volume>
+          <fpage>13</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="pmid">19092056</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Grammatikakis</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Gorospe</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Abdelmohsen</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Modulation of Cancer Traits by Tumor Suppressor microRNAs</article-title>
+          <source>Int. J. Mol. Sci.</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <fpage>1822</fpage>
+          <lpage>1842</lpage>
+          <pub-id pub-id-type="pmid">23325049</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R29">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Farazi</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Hoell</surname>
+              <given-names>JI</given-names>
+            </name>
+            <name>
+              <surname>Morozov</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Tuschl</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNAs in human cancer</article-title>
+          <source>Adv Exp Med Biol</source>
+          <year>2013</year>
+          <volume>774</volume>
+          <fpage>1</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="pmid">23377965</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R30">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Bilsland</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Revie</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Keith</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNA and senescence: the senectome, integration and distributed control</article-title>
+          <source>Crit Rev Oncog</source>
+          <year>2013</year>
+          <volume>18</volume>
+          <fpage>373</fpage>
+          <lpage>390</lpage>
+          <pub-id pub-id-type="pmid">23614622</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R31">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Gorospe</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Abdelmohsen</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRegulators come of age in senescence</article-title>
+          <source>Trends genet</source>
+          <year>2011</year>
+          <volume>27</volume>
+          <fpage>233</fpage>
+          <lpage>241</lpage>
+          <pub-id pub-id-type="pmid">21592610</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R32">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Noren Hooten</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Abdelmohsen</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Gorospe</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ejiogu</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Zonderman</surname>
+              <given-names>AB</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>MK</given-names>
+            </name>
+          </person-group>
+          <article-title>microRNA expression patterns reveal differential expression of target genes with age</article-title>
+          <source>PloS one</source>
+          <year>2010</year>
+          <volume>5</volume>
+          <fpage>e10724</fpage>
+          <pub-id pub-id-type="pmid">20505758</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R33">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Hackl</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Brunner</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Fortschegger</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Schreiner</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Micutkova</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Muck</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Laschober</surname>
+              <given-names>GT</given-names>
+            </name>
+            <name>
+              <surname>Lepperdinger</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Sampson</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Herndler-Brandstetter</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Wieser</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kuhnel</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Strasser</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rinnerthaler</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Breitenbach</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>miR-17, miR-19b, miR-20a, and miR-106a are down-regulated in human aging</article-title>
+          <source>Aging cell</source>
+          <year>2010</year>
+          <volume>9</volume>
+          <fpage>291</fpage>
+          <lpage>296</lpage>
+          <pub-id pub-id-type="pmid">20089119</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R34">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Williams</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Perry</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Moschos</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Lindsay</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>microRNA expression in the aging mouse lung</article-title>
+          <source>BMC genomics</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>172</fpage>
+          <lpage>178</lpage>
+          <pub-id pub-id-type="pmid">17573962</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R35">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Davidsen</surname>
+              <given-names>PK</given-names>
+            </name>
+            <name>
+              <surname>Gallagher</surname>
+              <given-names>IJ</given-names>
+            </name>
+            <name>
+              <surname>Hartman</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Tarnopolsky</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Dela</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Helge</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Timmons</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>SM</given-names>
+            </name>
+          </person-group>
+          <article-title>High responders to resistance exercise training demonstrate differential regulation of skeletal muscle microRNA expression</article-title>
+          <source>J Appl Physiol</source>
+          <year>2011</year>
+          <volume>110</volume>
+          <fpage>309</fpage>
+          <lpage>317</lpage>
+          <pub-id pub-id-type="pmid">21030674</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R36">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Haneklaus</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gerlic</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>O'Neill</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Masters</surname>
+              <given-names>S. L.</given-names>
+            </name>
+          </person-group>
+          <article-title>miR-223: infection, inflammation and cancer</article-title>
+          <source>J Intern Med</source>
+          <year>2013</year>
+          <volume>274</volume>
+          <fpage>215</fpage>
+          <lpage>226</lpage>
+          <pub-id pub-id-type="pmid">23772809</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R37">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Hamrick</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Herberg</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Arounleut</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>HZ</given-names>
+            </name>
+            <name>
+              <surname>Shiver</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Qi</surname>
+              <given-names>RQ</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Isales</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Mi</surname>
+              <given-names>QS</given-names>
+            </name>
+          </person-group>
+          <article-title>The adipokine leptin increases skeletal muscle mass and significantly alters skeletal muscle miRNA expression profile in aged mice</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <year>2010</year>
+          <volume>400</volume>
+          <fpage>379</fpage>
+          <lpage>383</lpage>
+          <pub-id pub-id-type="pmid">20800581</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R38">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Hutchison</surname>
+              <given-names>ER</given-names>
+            </name>
+            <name>
+              <surname>Kawamoto</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Taub</surname>
+              <given-names>DD</given-names>
+            </name>
+            <name>
+              <surname>Lal</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Abdelmohsen</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wood</surname>
+              <given-names>WH</given-names>
+              <suffix>3rd</suffix>
+            </name>
+            <name>
+              <surname>Lehrmann</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Camandola</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>KG</given-names>
+            </name>
+            <name>
+              <surname>Gorospe</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Mattson</surname>
+              <given-names>MP</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence for miR-181 involvement in neuroinflammatory responses of astrocytes</article-title>
+          <source>Glia</source>
+          <year>2013</year>
+          <volume>61</volume>
+          <fpage>1018</fpage>
+          <lpage>10128</lpage>
+          <pub-id pub-id-type="pmid">23650073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R39">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Xie</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>MiR-181a regulates inflammation responses in monocytes and macrophages</article-title>
+          <source>PloS one</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <fpage>e58639</fpage>
+          <pub-id pub-id-type="pmid">23516523</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R40">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Inukai</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>de Lencastre</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Turner</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Slack</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel microRNAs differentially expressed during aging in the mouse brain</article-title>
+          <source>PloS one</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <fpage>e40028</fpage>
+          <pub-id pub-id-type="pmid">22844398</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R41">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Li</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>WW</given-names>
+            </name>
+            <name>
+              <surname>Tsang</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Krishnan</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Weyand</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Goronzy</surname>
+              <given-names>JJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Decline in miR-181a expression with age impairs T cell receptor sensitivity by increasing DUSP6 activity</article-title>
+          <source>Nat Med</source>
+          <year>2012</year>
+          <volume>18</volume>
+          <fpage>1518</fpage>
+          <lpage>1524</lpage>
+          <pub-id pub-id-type="pmid">23023500</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R42">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Nomura</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Ueyama</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Ashihara</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Tateishi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Asada</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nakajima</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Isodono</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Matsubara</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Oh</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Skeletal muscle-derived progenitors capable of differentiating into cardiomyocytes proliferate through myostatin-independent TGF-beta family signaling</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <year>2008</year>
+          <volume>365</volume>
+          <fpage>863</fpage>
+          <lpage>869</lpage>
+          <pub-id pub-id-type="pmid">18047832</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R43">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Cheung</surname>
+              <given-names>TH</given-names>
+            </name>
+            <name>
+              <surname>Quach</surname>
+              <given-names>NL</given-names>
+            </name>
+            <name>
+              <surname>Charville</surname>
+              <given-names>GW</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Edalati</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Hoang</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Rando</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Maintenance of muscle stem-cell quiescence by microRNA-489</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>482</volume>
+          <fpage>524</fpage>
+          <lpage>528</lpage>
+          <pub-id pub-id-type="pmid">22358842</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R44">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Cerletti</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Jang</surname>
+              <given-names>YC</given-names>
+            </name>
+            <name>
+              <surname>Finley</surname>
+              <given-names>LW</given-names>
+            </name>
+            <name>
+              <surname>Haigis</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Wagers</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Short-term calorie restriction enhances skeletal muscle stem cell function</article-title>
+          <source>Cell stem cell</source>
+          <year>2012</year>
+          <volume>10</volume>
+          <fpage>515</fpage>
+          <lpage>519</lpage>
+          <pub-id pub-id-type="pmid">22560075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R45">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Sylvius</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Bonne</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Straatman</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Reddy</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gant</surname>
+              <given-names>TW</given-names>
+            </name>
+            <name>
+              <surname>Shackleton</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>MicroRNA expression profiling in patients with lamin A/C-associated muscular dystrophyl</article-title>
+          <source>FASEB J</source>
+          <year>2011</year>
+          <volume>25</volume>
+          <fpage>3966</fpage>
+          <lpage>3978</lpage>
+          <pub-id pub-id-type="pmid">21840938</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R46">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Masuda</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Marasa</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Martindale</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Halushka</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Gorospe</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Tissue- and age-dependent expression of RNA-binding proteins that influence mRNA turnover and translation</article-title>
+          <source>Aging</source>
+          <year>2009</year>
+          <volume>1</volume>
+          <fpage>681</fpage>
+          <lpage>698</lpage>
+          <pub-id pub-id-type="pmid">20157551</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R47">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Tominaga-Yamanaka</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Abdelmohsen</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Martindale</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Taub</surname>
+              <given-names>DD</given-names>
+            </name>
+            <name>
+              <surname>Gorospe</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>NF90 coordinately represses the senescence-associated secretory phenotype</article-title>
+          <source>Aging</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>695</fpage>
+          <lpage>708</lpage>
+          <pub-id pub-id-type="pmid">23117626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R48">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Abdelmohsen</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Srikantan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Gorospe</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of senescence by microRNA biogenesis factors</article-title>
+          <source>Ageing Res Rev</source>
+          <year>2012</year>
+          <volume>11</volume>
+          <fpage>491</fpage>
+          <lpage>500</lpage>
+          <pub-id pub-id-type="pmid">22306790</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R49">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Partridge</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Bruning</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Forkhead transcription factors and ageing</article-title>
+          <source>Oncogene</source>
+          <year>2008</year>
+          <volume>27</volume>
+          <fpage>2351</fpage>
+          <lpage>2363</lpage>
+          <pub-id pub-id-type="pmid">18391977</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R50">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Greer</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Brunet</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>FOXO transcription factors in ageing and cancer</article-title>
+          <source>Acta physiologica</source>
+          <year>2008</year>
+          <volume>192</volume>
+          <fpage>19</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="pmid">18171426</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R51">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>de Keizer</surname>
+              <given-names>PL</given-names>
+            </name>
+            <name>
+              <surname>Laberge</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Campisi</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>p53: Pro-aging or pro-longevity?</article-title>
+          <source>Aging</source>
+          <year>2010</year>
+          <volume>2</volume>
+          <fpage>377</fpage>
+          <lpage>379</lpage>
+          <pub-id pub-id-type="pmid">20657035</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R52">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Ingram</surname>
+              <given-names>DK</given-names>
+            </name>
+            <name>
+              <surname>Cutler</surname>
+              <given-names>RG</given-names>
+            </name>
+            <name>
+              <surname>Weindruch</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Renquist</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Knapka</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>April</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Belcher</surname>
+              <given-names>CT</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Hatcherson</surname>
+              <given-names>CD</given-names>
+            </name>
+            <name>
+              <surname>Marriott</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>GS</given-names>
+            </name>
+          </person-group>
+          <article-title>Dietary Restriction and Aging – the Initiation of a Primate Study</article-title>
+          <source>J Gerontol</source>
+          <year>1990</year>
+          <volume>45</volume>
+          <fpage>B148</fpage>
+          <lpage>B163</lpage>
+          <pub-id pub-id-type="pmid">2394908</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R53">
+        <element-citation publication-type="journal">
+          <person-group>
+            <name>
+              <surname>Mattison</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>GS</given-names>
+            </name>
+            <name>
+              <surname>Beasley</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Tilmont</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Handy</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Herbert</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Longo</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Allison</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Bryant</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Barnard</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Ward</surname>
+              <given-names>WF</given-names>
+            </name>
+            <name>
+              <surname>Qi</surname>
+              <given-names>WB</given-names>
+            </name>
+            <name>
+              <surname>Ingram</surname>
+              <given-names>DK</given-names>
+            </name>
+            <name>
+              <surname>de Cabo</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of caloric restriction on health and survival in rhesus monkeys from the NIA study</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>489</volume>
+          <fpage>318</fpage>
+          <lpage>321</lpage>
+          <pub-id pub-id-type="pmid">22932268</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

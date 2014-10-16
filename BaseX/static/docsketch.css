@@ -1,0 +1,45 @@
+body, td {
+  font-family: "Calibri","Droid sans", sans-serif;
+}
+
+code {
+  font-family: "Consolas", "Ubuntu Mono", monospace;
+}
+
+pre, code, p.docLocation {
+  font-family: "Consolas", "Ubuntu Mono", monospace;
+  font-size: 90%;
+}
+
+li li * { border-bottom: thin solid black }
+li .issue   { display: inline-block; width: 10em }
+li .maplink { display: inline-block; width: 8em; text-align: center }
+
+h2, h3, h4 { margin: 0px }
+
+/*h2, h3 { color: forestgreen }*/
+
+a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+div.journalGroup { border-top: thin solid black;
+  margin-top: 1ex; padding-top: 1ex; clear: both }
+
+div.article { border: thin dotted black; background-color: lemonchiffon; margin-top: 0.5em;
+  padding: 0.5em }
+div.article > * { margin: 0px }
+
+div > *:first-child { margin-top: 0px }
+
+div.svg { overflow: auto; border: medium groove grey; margin: 0.5em 0px; background-color: white }
+
+div.queryExample { margin-left: 2em; font-size: 90%; margin-top: 0.5em }
+div.queryExample > * { margin: 0ex }
+
+pre { padding: 0.5em; background-color: gainsboro; border: thin dotted black }
+
+.logo {
+  float: right; background-color: white; padding: 1ex; clear: both
+}

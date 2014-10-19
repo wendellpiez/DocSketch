@@ -1,9 +1,13 @@
  
-module namespace sk = "http://wendellpiez.com/ns/DocumentSketch";
+module namespace sk = "http://wendellpiez.com/ns/DocSketch";
 
 declare option db:chop 'no';
 
 (: declare variable $sk:frankensteinLMNL := db:open("LMNL-library","Frankenstein.xlmnl"); :)
+
+declare variable $sk:dhqArticles := sk:dhq-articles(); 
+
+(:'db:open('DHQ-articles')':)
 
 declare variable $sk:testDoc := document {
   <test>
@@ -62,19 +66,21 @@ declare function sk:docsketch-html-head($title as xs:string) as element(head)
 declare function sk:docsketch-masthead($title as xs:string) as element(div)
 {
   <div class="masthead">
-    <div class="logo"><img src="/static/scattered-peas.svg" width="65"/></div>
+    <!-- <div class="logo"><img src="/static/scattered-peas.svg" width="65"/></div> -->
     <h1>{ $title }</h1>
   </div>
 };
 
+declare variable $sk:dhq-tocXML := 'file://c:/Projects/DHQ/SVN/dhq/trunk/toc/toc.xml';
+declare variable $sk:dhq-articlesPath := 'file://c:/Projects/DHQ/SVN/dhq/trunk/articles/';
 
 declare function sk:dhq-articles() as document-node()* {
-  let $toc          := doc('file:/F:/Data/DHQ/SVN/dhq/trunk/toc/toc.xml')
+  let $toc          := doc($sk:dhq-tocXML)
   for $article in distinct-values( $toc//item/@id ) !
-    ( 'file:/F:/Data/DHQ/SVN/dhq/trunk/articles/' || . || '/' || . || '.xml')
+    ( $sk:dhq-articlesPath || . || '/' || . || '.xml')
   return (# db:chop false #) { doc($article) }
 };
-  
+
 (: PMC-OA functionality
    ^^^^^^^^^^^^^^^^^^^^ :)
 
@@ -111,13 +117,16 @@ declare function sk:execute-pmc-query($query as xs:string) as document-node()* {
   let $nodes :=
     try     { xquery:evaluate($query, map{ '' := db:open('PLoS_ONE')}) }
     catch * { document { <EXCEPTION>Query failure</EXCEPTION> } }
-  return $nodes/root()
+  return
+  
+  $nodes/root()
 };
 
 (: PMC-OA functionality
    ^^^^^^^^^^^^^^^^^^^^ :)
 
-declare function sk:dhq-query-request-form($promptQuery as xs:string) as element(form) {
+declare function sk:dhq-query-request-form($promptQuery as xs:string)
+  as element(form) {
   <form method="post" action="request.html">
     <h4>New query:</h4>
     { () (: <input name="query" size="120" value="{ $promptQuery }"/> :) }
@@ -125,7 +134,7 @@ declare function sk:dhq-query-request-form($promptQuery as xs:string) as element
       { $promptQuery }
     </textarea>
     <input type="submit"/>
-    <p>The documents containing the query results will be displayed. The database currently contains { count(db:open('DHQ-articles'))} documents. Namespace prefixes are bound as follows:</p>
+    <!-- p>The documents containing the query results will be displayed. The database currently contains { count($sk:dhqArticles)} documents. Namespace prefixes are bound as follows:</p -->
     <dl>
     <dt>unprefixed</dt>
     <dd><code>http://www.tei-c.org/ns/1.0</code></dd>
@@ -159,15 +168,16 @@ declare function sk:dhq-query-request-form($promptQuery as xs:string) as element
   </form>
 };
 
-declare function sk:execute-dhq-query($query as xs:string) as document-node()* {
+(: Returning arbitrary items, not just documents, so we can handle XQuery
+   in general. :)
+declare function sk:execute-dhq-query($query as xs:string) as item()* {
   let $ns-query := (
-  'declare default element namespace "http://www.tei-c.org/ns/1.0";' ||'
-   declare namespace dhq = "http://www.digitalhumanities.org/ns/dhq"; ' ||
+  'declare default element namespace "http://www.tei-c.org/ns/1.0";&#xA;'    ||
+  'declare namespace dhq = "http://www.digitalhumanities.org/ns/dhq";&#xA; ' ||
    $query )
-  let $nodes :=
-    try     { xquery:evaluate($ns-query, map{ '' := db:open('DHQ-articles')}) }
+  return
+    try     { xquery:evaluate($ns-query, map{ '' := $sk:dhqArticles }) }
     catch * { document { <EXCEPTION>Query failure</EXCEPTION> } }
-  return $nodes/root()
 };
 
 
@@ -194,8 +204,12 @@ declare function sk:dhq-query-graph-xslt($query as xs:string) as xs:string {
 
 (: UTILITY STUFF :)
 
+declare variable $sk:xsltPath :=
+'file:/C:/Users/Wendell/Documents/GitHub/DocSketch/xslt';
+(:  'file:/B:/Work/Projects/PublicProjects/DocumentSketch/BaseX/xslt/' :)
+
 declare function sk:fetch-xslt($filename as xs:string) as xs:string {
-  'file:/B:/Work/Projects/PublicProjects/DocumentSketch/BaseX/xslt/' || $filename };
+  $sk:xsltPath ||'/' || $filename };
 
 
 declare function sk:and-sequence($items as item()*) as xs:string {

@@ -10,30 +10,30 @@
  :)
 module namespace page = 'http://basex.org/modules/web-page';
 
-import module namespace sk = "http://wendellpiez.com/ns/DocumentSketch" at "../xquery/docsketch.xqm";
+import module namespace sk = "http://wendellpiez.com/ns/DocSketch" at "../xquery/docsketch.xqm";
 
 (: declare default element namespace "http://www.w3.org/1999/xhtml"; :)
 declare namespace svg = "http://www.w3.org/2000/svg";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare namespace dhq = "http://www.digitalhumanities.org/ns/dhq";
 
-declare %rest:path("DocumentSketch")
+declare %rest:path("DocSketch")
         %output:method("xhtml")
         %output:doctype-public("-//W3C//DTD XHTML 1.0 Transitional//EN")
         %output:doctype-system("http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd")
         %output:omit-xml-declaration("no")
   function page:docsketch-home() {
 
-  let $title        := 'Document Sketch'
+  let $title        := 'Document Sketch (DOCSKETCH)'
   let $html         := document {
   <html>
     { sk:docsketch-html-head($title)}
     <body>
       { sk:docsketch-masthead($title)}
       <div>
-        <h4><a href="DocumentSketch/JATS-view/Aging_(Albany_NY)/start.html">JATS maps - Aging (Albany) [from PMC Open Access]</a></h4>
-        <h4><a href="DocumentSketch/DHQ-query/start.html">Digital Humanities Quarterly</a></h4>
-        <h4><a href="DocumentSketch/OHCO/frankenstein.html">The case of&#xA0;<i>Frankenstein: or, the Modern Prometheus</i></a></h4>
+        <h4><a href="DocSketch/JATS-view/Aging_(Albany_NY)/start.html">JATS maps - Aging (Albany) [from PMC Open Access]</a></h4>
+        <h4><a href="DocSketch/DHQ-query/start.html">Digital Humanities Quarterly</a></h4>
+        <h4><a href="DocSketch/OHCO/frankenstein.html">The case of&#xA0;<i>Frankenstein: or, the Modern Prometheus</i></a></h4>
       </div>
     </body>
   </html> }
@@ -42,14 +42,14 @@ declare %rest:path("DocumentSketch")
 
 
 
-declare %rest:path("DocumentSketch/DHQ-query/start.html")
+declare %rest:path("DocSketch/DHQ-query/start.html")
         %output:method("xhtml")
         %output:doctype-public("-//W3C//DTD XHTML 1.0 Transitional//EN")
         %output:doctype-system("http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd")
         %output:omit-xml-declaration("no")
   function page:dhq-query-docsketch() {
 
-  let $title        := 'Document Sketch: DHQ article query'
+  let $title        := 'DOCSKETCH: DHQ article query'
   let $html         := document {
   <html>
     { sk:docsketch-html-head($title)}
@@ -71,7 +71,7 @@ declare %rest:path("DocumentSketch/DHQ-query/start.html")
  : @return response element 
  :)
 declare
-  %rest:path("DocumentSketch/DHQ-query/request.html")
+  %rest:path("DocSketch/DHQ-query/request.html")
   %rest:POST
   %rest:form-param("query","{$query}", "(no message)")
   %rest:header-param("User-Agent", "{$agent}")
@@ -84,11 +84,11 @@ declare
     $agent   as xs:string*)
     as document-node()
 {
-  let $title := 'Document Sketch: DHQ document map'
-  let $docs  := sk:execute-dhq-query($query)
-                       (: $sk:testDoc :)
-  let $xslt  := sk:dhq-query-graph-xslt($query)
-  let $html  := document {
+  let $title   := 'DocSketch: DHQ document map'
+  let $docs    := sk:execute-dhq-query($query)[. instance of node()]/root()
+  let $nonDocs := sk:execute-dhq-query($query)[not(. instance of node())]                     (: $sk:testDoc :)
+  let $xslt    := sk:dhq-query-graph-xslt($query)
+  let $html    := document {
   
   <html>
     { sk:docsketch-html-head($title)}
@@ -96,7 +96,8 @@ declare
       { sk:docsketch-masthead($title)}
       { if (exists($docs/EXCEPTION))
           then
-            (<h4>Sorry, your query is not well-formed</h4>,
+            (<h4>Sorry, your query did not succeed. Its syntax is not correct, or there is a wiring problem
+            in back.</h4>,
              sk:dhq-query-request-form($query) )
           else
             (sk:dhq-query-request-form($query),
@@ -104,6 +105,9 @@ declare
         <div style="margin-top:1ex; border-top: medium solid black">
           <h4>Query:</h4>
           <pre style="max-width:80%">{ $query }</pre>
+          { if (exists($nonDocs)) then
+            <pre style="max-width:80%">{ string-join($nonDocs ! string(.), '&#xA;') }</pre>
+            else () }
           <h4 style="font-style:italic">{ count($docs) }
             {()} document{if (count($docs) eq 1) then '' else 's'} returned</h4>  
         { for $doc in $docs
@@ -131,7 +135,7 @@ declare
 };
 
 
-declare %rest:path("DocumentSketch/DHQ-query/{$article}/map.html")
+declare %rest:path("DocSketch/DHQ-query/{$article}/map.html")
         %output:method("xhtml")
         %output:doctype-public("-//W3C//DTD XHTML 1.0 Transitional//EN")
         %output:doctype-system("http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd")
@@ -140,8 +144,8 @@ declare %rest:path("DocumentSketch/DHQ-query/{$article}/map.html")
     
                                        
 
-  let $title   := 'Document Sketch: DHQ article view'
-  let $doc     := db:open('DHQ-articles',($article || '.xml'))
+  let $title   := 'DOCSKETCH: DHQ article view'
+  let $doc     := $sk:dhqArticles[matches(document-uri(/),($article || '.xml$'))]
   let $viewSVG := sk:run-xslt-pipeline($doc,
                     $sk:requestPipelines/request[@name='DHQ-map']/xslt/sk:fetch-xslt(.),
                     () )
@@ -179,7 +183,7 @@ declare %rest:path("DocumentSketch/DHQ-query/{$article}/map.html")
 
 
 
-declare %rest:path("DocumentSketch/OHCO/frankenstein.html")
+declare %rest:path("DocSketch/OHCO/frankenstein.html")
         %output:method("xhtml")
         %output:doctype-public("-//W3C//DTD XHTML 1.0 Transitional//EN")
         %output:doctype-system("http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd")
@@ -204,7 +208,7 @@ declare %rest:path("DocumentSketch/OHCO/frankenstein.html")
   (: cast HTML into XHTML namespace before delivering... :)
 };
 
-declare %rest:path("DocumentSketch/OHCO/lmnl/{$item}/bubblemap.svg")
+declare %rest:path("DocSketch/OHCO/lmnl/{$item}/bubblemap.svg")
         %output:method("xml")
         %output:media-type("image/svg+xml")
         %output:doctype-public("-//W3C//DTD SVG 1.1//EN")
@@ -231,7 +235,7 @@ let $index := map {
   
 (: for $file in map:keys($fileSet) :)
 
-declare %rest:path("DocumentSketch/OHCO/frankenstein.svg")
+declare %rest:path("DocSketch/OHCO/frankenstein.svg")
         %output:method("xml")
         %output:media-type("image/svg+xml")
         %output:doctype-public("-//W3C//DTD SVG 1.1//EN")
@@ -245,7 +249,7 @@ declare %rest:path("DocumentSketch/OHCO/frankenstein.svg")
   return sk:run-xslt-pipeline($doc,$xsltPipeline,())
 };
 
-declare %rest:path("DocumentSketch/OHCO/frankenstein1818.svg")
+declare %rest:path("DocSketch/OHCO/frankenstein1818.svg")
         %output:method("xml")
         %output:media-type("image/svg+xml")
         %output:doctype-public("-//W3C//DTD SVG 1.1//EN")
@@ -259,33 +263,33 @@ declare %rest:path("DocumentSketch/OHCO/frankenstein1818.svg")
   return sk:run-xslt-pipeline($doc,$xsltPipeline,())
 };
 
-declare %rest:path("DocumentSketch/OHCO/frankenstein.xlmnl")
+declare %rest:path("DocSketch/OHCO/frankenstein.xlmnl")
         %output:method("xml")
         %output:omit-xml-declaration("no")
   function page:frankenstein-xlmnl() as document-node() {
      db:open("LMNL-library","Frankenstein1831.xlmnl") };
 
 
-(: http://cypress:8984/DocumentSketch/DHQ-query/000004/resources/images/figure03.jpg :)
-declare %rest:path("DocumentSketch/DHQ-query/{$articleNo}/resources/{$resource}")
+(: http://cypress:8984/DocSketch/DHQ-query/000004/resources/images/figure03.jpg :)
+declare %rest:path("DocSketch/DHQ-query/{$articleNo}/resources/{$resource}")
         %output:method("raw")
   function page:dhq-resource($articleNo as xs:string, $resource as xs:string) {
-    let $path := 'file:///F:/Data/DHQ/SVN/dhq/trunk/articles/' ||
+    let $path := $sk:dhq-articlesPath ||
                  $articleNo || '/resources/' || $resource
     return
   file:read-binary($path) 
 };
 
-declare %rest:path("DocumentSketch/DHQ-query/{$articleNo}/resources/images/{$resource}")
+declare %rest:path("DocSketch/DHQ-query/{$articleNo}/resources/images/{$resource}")
         %output:method("raw")
   function page:dhq-image-resource($articleNo as xs:string, $resource as xs:string) {
-    let $path := 'file:///F:/Data/DHQ/SVN/dhq/trunk/articles/' ||
+    let $path := $sk:dhq-articlesPath ||
                  $articleNo || '/resources/images/' || $resource
     return
   file:read-binary($path) 
 };
 
-declare %rest:path("DocumentSketch/DHQ-query/debug.xml")
+declare %rest:path("DocSketch/DHQ-query/debug.xml")
         %output:method("xml")
         %output:omit-xml-declaration("no")
   function page:dhq-debug() {

@@ -1,3 +1,5 @@
+REM Place this file in a directory inside BaseX installation
+
 @echo off
 setLocal EnableDelayedExpansion
 

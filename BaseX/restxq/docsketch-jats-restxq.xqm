@@ -10,11 +10,11 @@
  :)
 module namespace page = 'http://basex.org/modules/web-page';
 
-import module namespace sk = "http://wendellpiez.com/ns/DocumentSketch" at "../xquery/docsketch.xqm";
+import module namespace sk = "http://wendellpiez.com/ns/DocSketch" at "../xquery/docsketch.xqm";
 
 (: declare default element namespace "http://www.w3.org/1999/xhtml"; :)
 declare namespace svg = "http://www.w3.org/2000/svg";
-declare %rest:path("DocumentSketch/JATS-view/{$journal}/start.html")
+declare %rest:path("DocSketch/JATS-view/{$journal}/start.html")
         %output:method("xhtml")
         %output:doctype-public("-//W3C//DTD XHTML 1.0 Transitional//EN")
         %output:doctype-system("http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd")
@@ -56,7 +56,7 @@ declare %rest:path("DocumentSketch/JATS-view/{$journal}/start.html")
   return sk:run-xslt($html,(sk:fetch-xslt('xhtml-ns.xsl')),()) (: cast HTML into XHTML namespace before delivering... :)
 };
 
-declare %rest:path("DocumentSketch/JATS-view/{$view}/{$journal}/{$volume}/{$issue}")
+declare %rest:path("DocSketch/JATS-view/{$view}/{$journal}/{$volume}/{$issue}")
         %output:method("xhtml")
         %output:doctype-public("-//W3C//DTD XHTML 1.0 Transitional//EN")
         %output:doctype-system("http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd")
@@ -98,7 +98,7 @@ declare %rest:path("DocumentSketch/JATS-view/{$view}/{$journal}/{$volume}/{$issu
 };
 
 
-declare %rest:path("DocumentSketch/JATS-element-map/start.html")
+declare %rest:path("DocSketch/JATS-element-map/start.html")
         %output:method("xhtml")
         %output:doctype-public("-//W3C//DTD XHTML 1.0 Transitional//EN")
         %output:doctype-system("http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd")
@@ -125,7 +125,7 @@ declare %rest:path("DocumentSketch/JATS-element-map/start.html")
  : @return response element 
  :)
 declare
-  %rest:path("DocumentSketch/JATS-element-map/request.html")
+  %rest:path("DocSketch/JATS-element-map/request.html")
   %rest:POST
   %rest:form-param("query","{$query}", "(no message)")
   %rest:header-param("User-Agent", "{$agent}")

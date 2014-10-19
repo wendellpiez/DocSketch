@@ -1,4 +1,4 @@
-import module namespace sk = "http://wendellpiez.com/ns/DocumentSketch" at "xquery/docsketch.xqm";
+import module namespace sk = "http://wendellpiez.com/ns/DocSketch" at "xquery/docsketch.xqm";
 
 (: declare default element namespace "http://www.w3.org/1999/xhtml"; :)
 declare namespace svg = "http://www.w3.org/2000/svg";

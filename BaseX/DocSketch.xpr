@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="15.2">
+<project version="16.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="15.2" xml:space="preserve">
-                <map>
+            <serialized version="16.1" xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
@@ -314,6 +318,9 @@
                                 <field name="outputFile">
                                     <null/>
                                 </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -395,6 +402,9 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
                                     <null/>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
@@ -480,6 +490,9 @@
                                 <field name="outputFile">
                                     <null/>
                                 </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -563,6 +576,9 @@
                                 <field name="outputFile">
                                     <File>${cfd}/${cfn}.html</File>
                                 </field>
+                                <field name="outputResource">
+                                    <String>${cfd}\${cfn}.html</String>
+                                </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -644,6 +660,9 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
                                     <null/>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
@@ -729,6 +748,9 @@
                                 <field name="outputFile">
                                     <null/>
                                 </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -811,6 +833,9 @@
                                 </field>
                                 <field name="outputFile">
                                     <File>${pd}/frankenstein.svg</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${pd}\frankenstein.svg</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -895,6 +920,9 @@
                                 <field name="outputFile">
                                     <null/>
                                 </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -938,15 +966,14 @@
                         <String>scenarios.load.from.project</String>
                         <Boolean>true</Boolean>
                     </entry>
-                </map>
+                </serializableOrderedMap>
             </serialized>
         </options>
     </meta>
-    <projectTree name="DocumentSketch.xpr">
+    <projectTree name="DocSketch.xpr">
         <folder path="restxq/"/>
         <folder path="static/"/>
         <folder path="xquery/"/>
         <folder path="xslt/"/>
-        <folder path="file:/F:/Data/DHQ/SVN/dhq/"/>
     </projectTree>
 </project>

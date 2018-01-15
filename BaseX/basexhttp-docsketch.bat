@@ -13,7 +13,7 @@ for /R "%LIB%" %%a in (*.jar) do set CP=!CP!;%%a
 
 REM Options for virtual machine
 set VM=-Xmx2g
-set BASEXOPTIONS=-Dorg.basex.WEBPATH=B:\Work\Projects\PublicProjects\DocumentSketch\BaseX
+set BASEXOPTIONS=-Dorg.basex.WEBPATH=C:\Users\Wendell\Documents\GitHub\DocSketch
 
 REM Run code
 java %BASEXOPTIONS% -cp "%CP%;." %VM% org.basex.BaseXHTTP %*

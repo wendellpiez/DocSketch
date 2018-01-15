@@ -35,8 +35,15 @@ declare variable $sk:requestPipelines :=
       <xslt>docsketch-map.xsl</xslt>
       <xslt>jats-docsketch-svg.xsl</xslt>
     </request>
-    <request name="JATS-xref-graph">
-      <xslt>docsketch-jats-xrefgraph-svg.xsl</xslt>
+    <!--  request name="JATS-xref-graph">
+      <xslt>docsketch-map.xsl</xslt>
+      <xslt>jats-xrefsketch-svg.xsl</xslt>
+    </request -->
+    <request name="WBNLM-graph">
+      <xslt>wbnlm-graph-svg.xsl</xslt>
+    </request>
+     <request name="WBNLM-map">
+      <xslt>wbnlm-map-svg.xsl</xslt>
     </request>
     <request name="DHQ-graph">
       <xslt>dhq-graph-svg.xsl</xslt>
@@ -71,8 +78,11 @@ declare function sk:docsketch-masthead($title as xs:string) as element(div)
   </div>
 };
 
-declare variable $sk:dhq-tocXML := 'file://c:/Projects/DHQ/SVN/dhq/trunk/toc/toc.xml';
-declare variable $sk:dhq-articlesPath := 'file://c:/Projects/DHQ/SVN/dhq/trunk/articles/';
+
+declare variable $sk:localDHQ := 'file://F:/Data/DHQ/SVN/dhq'; (: file://c:/Projects/DHQ/SVN/dhq :)
+
+declare variable $sk:dhq-tocXML       := $sk:localDHQ || '/trunk/toc/toc.xml';
+declare variable $sk:dhq-articlesPath := $sk:localDHQ || '/trunk/articles/';
 
 declare function sk:dhq-articles() as document-node()* {
   let $toc          := doc($sk:dhq-tocXML)
@@ -115,14 +125,14 @@ declare function sk:pmc-oa-request-form($promptQuery as xs:string) as element(fo
 
 declare function sk:execute-pmc-query($query as xs:string) as document-node()* {
   let $nodes :=
-    try     { xquery:evaluate($query, map{ '' := db:open('PLoS_ONE')}) }
+    try     { xquery:eval($query, map{ '' : db:open('PLoS_ONE')}) }
     catch * { document { <EXCEPTION>Query failure</EXCEPTION> } }
   return
   
   $nodes/root()
 };
 
-(: PMC-OA functionality
+(: DHQ functionality
    ^^^^^^^^^^^^^^^^^^^^ :)
 
 declare function sk:dhq-query-request-form($promptQuery as xs:string)
@@ -176,7 +186,7 @@ declare function sk:execute-dhq-query($query as xs:string) as item()* {
   'declare namespace dhq = "http://www.digitalhumanities.org/ns/dhq";&#xA; ' ||
    $query )
   return
-    try     { xquery:evaluate($ns-query, map{ '' := $sk:dhqArticles }) }
+    try     { xquery:eval($ns-query, map{ '' : $sk:dhqArticles }) }
     catch * { document { <EXCEPTION>Query failure</EXCEPTION> } }
 };
 
@@ -202,6 +212,66 @@ declare function sk:dhq-query-graph-xslt($query as xs:string) as xs:string {
   </xsl:stylesheet>'
 };
 
+(: WBNLM stuff :)
+
+declare function sk:wbnlm-query-request-form($promptQuery as xs:string) as element(form) {
+  <form method="post" action="request.html">
+    <h4>New query:</h4>
+    { () (: <input name="query" size="120" value="{ $promptQuery }"/> :) }
+    <textarea rows="5" cols="50" name="query" value="{ $promptQuery }">
+      { $promptQuery }
+    </textarea>
+    <input type="submit"/>
+    <p>The documents containing the query results will be displayed. The database currently contains { count(db:open('WBNLM-Samples'))} documents.</p>
+    <h4>Examples</h4>
+    <div class="queryExample">
+      <p>All book or section titles containing 'human' (case-insensitive)</p>
+      <pre>//(book-title|title)[matches(.,'human','i')]</pre>
+    </div>
+    <div class="queryExample">
+      <p>All math (mml:math|m:math)</p>
+      <pre>//*:math</pre>
+    </div>
+    <div class="queryExample">
+      <p>Figs in documents with 12 or more&#xA0;<code>fig</code>&#xA0;elements</p>
+      <pre>//fig[count(root()//fig) ge 12]</pre>
+    </div>
+    <div class="queryExample">
+      <p><code>body</code>&#xA0;elements with only &#xA0;<code>supplementary-material</code> and nothing else</p>
+      <pre>//body[empty(* except supplementary-material)]</pre>
+    </div>
+  </form>
+};
+
+declare function sk:execute-wbnlm-query($query as xs:string) as document-node()* {
+  let $nodes :=
+    try     { xquery:eval($query, map{ '' : db:open('WBNLM-Samples')}) }
+    catch * { document { <EXCEPTION>Query failure</EXCEPTION> } }
+  return
+  
+  $nodes/root()
+};
+
+declare function sk:wbnlm-query-graph-xslt($query as xs:string) as xs:string {
+  (: Dynamically constructing an XSLT containing the query :)
+  '<xsl:stylesheet
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ 
+  xmlns:dsk="http://wendellpiez.com/docsketch/xslt/util"
+  exclude-result-prefixes="#all"
+  version="2.0">
+  
+  <xsl:import href="' || $sk:requestPipelines/request[@name='WBNLM-graph']/xslt/sk:fetch-xslt(.) || '"/>
+  
+  <xsl:param name="querySet" select="' || $query || '"/>
+    
+    
+  </xsl:stylesheet>'
+};
+
+
+
 (: UTILITY STUFF :)
 
 declare variable $sk:xsltPath :=
@@ -209,7 +279,7 @@ declare variable $sk:xsltPath :=
 (:  'file:/B:/Work/Projects/PublicProjects/DocumentSketch/BaseX/xslt/' :)
 
 declare function sk:fetch-xslt($filename as xs:string) as xs:string {
-  $sk:xsltPath ||'/' || $filename };
+  $sk:xsltPath || '/' || $filename };
 
 
 declare function sk:and-sequence($items as item()*) as xs:string {

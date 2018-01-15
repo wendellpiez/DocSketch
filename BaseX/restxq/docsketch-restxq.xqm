@@ -32,6 +32,7 @@ declare %rest:path("DocSketch")
       { sk:docsketch-masthead($title)}
       <div>
         <h4><a href="DocSketch/JATS-view/Aging_(Albany_NY)/start.html">JATS maps - Aging (Albany) [from PMC Open Access]</a></h4>
+        <h4><a href="DocSketch/WB-NLM/start.html">WB NLM data</a></h4>
         <h4><a href="DocSketch/DHQ-query/start.html">Digital Humanities Quarterly</a></h4>
         <h4><a href="DocSketch/OHCO/frankenstein.html">The case of&#xA0;<i>Frankenstein: or, the Modern Prometheus</i></a></h4>
       </div>
@@ -218,11 +219,11 @@ declare %rest:path("DocSketch/OHCO/lmnl/{$item}/bubblemap.svg")
 {
   
 let $index := map {
-   "Frankenstein-1818ed"              :=
+   "Frankenstein-1818ed"              :
       'Frankenstein1818.xlmnl' ,
-   "Frankenstein-1831ed" :=
+   "Frankenstein-1831ed" :
       'Frankenstein1831.xlmnl', 
-   "Frankenstein" :=
+   "Frankenstein" :
       'Frankenstein.xlmnl' }
   
   let $xsltPipeline := $sk:requestPipelines/request[@name='frankenstein']/xslt/sk:fetch-xslt(.)
@@ -244,7 +245,7 @@ declare %rest:path("DocSketch/OHCO/frankenstein.svg")
   function page:frankenstein-docsketch-svg() as document-node()
 {
   let $xsltPipeline := $sk:requestPipelines/request[@name='frankenstein']/xslt/sk:fetch-xslt(.)
-  let $doc          := db:open("LMNL-library","Frankenstein-as-published.xlmnl")
+  let $doc          := db:open("LMNL-library","Frankenstein.xlmnl")
   
   return sk:run-xslt-pipeline($doc,$xsltPipeline,())
 };
